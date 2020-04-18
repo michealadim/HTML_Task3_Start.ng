@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.mylogo img {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 40%;
+    height: 100%;
+}
+
+.firstInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 380px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.slack{
+    display: flex;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    height: 8vh;
+}
+
+.slack input{
+    background-color: transparent;
+    border: 4px solid rgba(6, 71, 66, 0.966);
+    border-radius: 6px;
+    color: rgb(0, 23, 39);
+    font-weight: bold;
+}
+
+.contactMe{
+    display: flex;
+    font-size: 18px;
+    font-weight: bolder;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    max-height: 40vh;
+    padding: 0px 20px 0px 20px;
+    min-height: 10vh;
+    bottom:100px;
+    left: 41rem;
+    padding: 15px;
+
+}
+
+#contactForm {
+    display: block;
+    margin-bottom: 8px;
+    margin-left: 3rem;
+    padding-left: 30px;
+    height: 8vh;
+    width: 70%;
+    border-radius: 6px;
+    color: rgb(0, 23, 39);
+    font-weight: bold;
+}
+
+#contactSubmit {
+    margin-left: 6rem;
+    padding: 0px 20px 0px 20px;
+    height: 25%;
+    width: 40%;
+   background-color: rgba(6, 71, 66, 0.966);
+    border-radius: 6px;
+    color: rgb(0, 23, 39);
+    font-weight: bold;
+}
+
+#contactSubmit:hover{
+    background-color: transparent;
+    border: 4px solid rgba(6, 71, 66, 0.966);
+}
+.formInput {
+    margin-top: 15px;
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+    padding: 0px 20px 0px 20px;
+    margin-top:10px ;
+
+}
+h2{
+    margin-left: -30rem;
+    margin-bottom: 8px;
+    font-size: 20px;
+    text-decoration: underline;
+    position: relative;
+    z-index: 1;
+}
+.bioData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    margin-left: 25rem;
+    margin-top:8px ;
+    position: relative;
+    z-index: 1;
+}
+
+ h3 {
+    margin-left: -30rem;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    position: relative;
+    z-index: 1;
+}
+.list {
+    margin-top: -9px;
+    margin-left: -17rem;
+
+}
